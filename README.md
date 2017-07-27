@@ -22,15 +22,24 @@ $ npm install eslint-plugin-polymer --save-dev
 
 Add `polymer` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
+### Polymer 2
+
 ```json
 {
-    "plugins": [
-        "polymer"
-    ]
+  "extends": ["plugin:polymer/polymer-2"],
+  "plugins": [
+    "polymer"
+  ]
 }
 ```
 
+### Polymer 1
 
-
-
-
+```json
+{
+  "extends": ["plugin:polymer/polymer-1"],
+  "plugins": [
+    "polymer"
+  ]
+}
+```
