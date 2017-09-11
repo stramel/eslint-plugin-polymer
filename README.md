@@ -1,6 +1,6 @@
 # eslint-plugin-polymer
 
-polymer related configs
+Recommended Eslint configs for Polymer
 
 ## Installation
 

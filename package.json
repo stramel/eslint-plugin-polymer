@@ -1,13 +1,20 @@
 {
   "name": "eslint-plugin-polymer",
-  "version": "0.0.0",
-  "description": "polymer related configs",
+  "version": "0.1.0",
+  "description": "Recommended Eslint configs for Polymer",
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "eslintconfig",
+    "eslint-config",
+    "polymer"
   ],
   "author": "Michael Stramel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stramel/eslint-plugin-polymer.git"
+  },
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive"
@@ -27,5 +34,5 @@
   "engines": {
     "node": ">=6"
   },
-  "license": "ISC"
+  "license": "Apache-2.0"
 }
