@@ -1,5 +1,7 @@
 # eslint-plugin-polymer
 
+[![eslint-plugin-polymer](https://img.shields.io/npm/v/eslint-plugin-polymer.svg?style=flat-square)](https://www.npmjs.com/package/eslint-plugin-polymer)
+
 Recommended Eslint configs for Polymer
 
 ## Installation
