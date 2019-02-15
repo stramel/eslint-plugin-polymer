@@ -16,20 +16,13 @@
     "url": "https://github.com/stramel/eslint-plugin-polymer.git"
   },
   "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha tests --recursive"
-  },
   "dependencies": {
     "eslint-config-google": "^0.9.1",
     "eslint-config-recommended": "^2.0.0",
-    "eslint-plugin-html": "^3.1.1",
-    "requireindex": "~1.1.0"
+    "eslint-plugin-html": "^3.1.1"
   },
   "peerDependencies": {
     "eslint": "^4.3.0"
-  },
-  "devDependencies": {
-    "mocha": "^3.1.2"
   },
   "engines": {
     "node": ">=6"
