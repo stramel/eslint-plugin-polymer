@@ -2,6 +2,7 @@
   "name": "eslint-plugin-polymer",
   "version": "0.2.1",
   "description": "Recommended Eslint configs for Polymer",
+  "license": "Apache-2.0",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -17,15 +18,17 @@
   },
   "main": "lib/index.js",
   "dependencies": {
-    "eslint-config-google": "^0.9.1",
-    "eslint-config-recommended": "^2.0.0",
-    "eslint-plugin-html": "^3.1.1"
+    "eslint-config-google": "^0.12.0",
+    "eslint-config-recommended": "^4.0.0",
+    "eslint-plugin-html": "^5.0.3"
   },
   "peerDependencies": {
-    "eslint": "^4.3.0"
+    "eslint": ">= 5"
   },
   "engines": {
     "node": ">=6"
   },
-  "license": "Apache-2.0"
+  "prettier": {
+    "singleQuote": true
+  }
 }
