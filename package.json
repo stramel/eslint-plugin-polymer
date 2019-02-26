@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-polymer",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Recommended Eslint configs for Polymer",
   "license": "Apache-2.0",
   "keywords": [
